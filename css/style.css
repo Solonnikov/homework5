@@ -1,0 +1,158 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html,
+body {
+	font-family: "Open Sans", Arial, sans-serif;
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+}
+.header {
+	width: 100%;
+	height: 18%;
+	background-color: #085392;
+}
+.left_list {
+	float: left;
+	margin-left: 45%;
+}
+.right_list {
+	color: red;
+}
+.left_list ul,
+.right_list ul {
+	display: inline-block;
+	list-style-type: none;
+	list-style-image: url(../img/flag.png);
+}
+.left_list li,
+.right_list li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 5px;
+	color: #4A98D1;
+}
+.left_list a {
+	text-decoration: none;
+	color: #4A98D1;
+}
+.right_list a {
+	text-decoration: none;
+	color: #ffffff;
+}
+.left_list a:hover, 
+.left_list li:hover,
+.right_list a:hover,
+.right_list li:hover {
+	background-color: #4EABDA;
+	color: #FFFFFF; 
+}
+.left_list li:nth-child(5) {
+	border-right: 1px solid #4A98D1;
+}
+main {
+	width: 100%;
+	height: 100%;
+}
+.main {
+	position: relative;
+	background-image: url(../img/bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 200%;
+}
+.form_container {
+	position: absolute;
+	left: 30%;
+	top: 22%;
+	width: 40%;
+	height: 60%;
+	min-width: 40%;
+	min-height: 60%;
+	background-color: rgba(0,0,0,0.5);
+}
+.container_header {
+
+	width: 100%;
+	min-width: 40%;
+	height: 10%;
+	border-bottom: 2px solid white;
+	background-color: rgba(0,0,0);
+}
+.container_header p {
+	padding-top: 5%;
+	text-align: center;
+	color: rgba(255,255,255,0.5);
+	font-size: 1.3em;
+
+}
+.container_main {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+
+}
+.fb_button {
+	position: relative;
+	margin: 0 auto;
+	margin-top: 5%;
+	min-width: 55%;
+	width: 55%;
+	height: 4%;
+	opacity: 1.0;
+	background-color: #354E87;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 1%;
+	color: white;
+	border-top: 1px solid white;
+}
+.fb_button a {
+	text-decoration: none;
+	color: white;
+}
+.fb_button img {
+	position: absolute;
+	left: 5%;
+}
+span {
+	color: rgba(255,255,255,0.5);
+	clear: both;
+	text-align: center;
+	font-size: 0.8em;
+}
+.form {
+	margin-left: 20%;
+}
+input {
+	display: block;
+	width: 64%;
+	height: 4%;
+	padding: 2%;
+	margin: 3%;
+	background-color: black;
+	color: white;
+}
+input:hover {
+	background-color: #1B5288;
+	color: white;
+}
+label {
+	color: white;
+	padding-right:30%;
+}
+button {
+	margin-right: 25%;
+	margin-top: 4%;
+	width:150px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #317FC7;
+	color: white;
+}
+button:hover {
+	cursor: pointer;
+}
